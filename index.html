@@ -1086,6 +1086,7 @@
             <input class="form-input" type="text" name="name" placeholder="Your Name" required />
             <input class="form-input" type="email" name="email" placeholder="Email Address" required />
             <input class="form-input" type="text" name="business" placeholder="Business Name" required />
+            <input class="form-input" type="tel" name="phone" placeholder="Phone Number" required />
             <textarea class="form-input form-textarea" name="message" placeholder="Tell us about your business..." required></textarea>
             <button class="btn-primary full-width btn-submit" type="submit">Book My Free Call →</button>
           </form>
@@ -1188,6 +1189,7 @@
         name: formData.get('name') || '',
         email: formData.get('email') || '',
         business: formData.get('business') || '',
+        phone: formData.get('phone') || '',
         message: formData.get('message') || ''
       };
 
